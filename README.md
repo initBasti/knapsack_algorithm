@@ -19,6 +19,6 @@ git clone
 cd knapsack_algorithm
 meson build
 ninja -C build
-# max weight = 4, first item (1,2), second item (3,4)
+# max weight = 4, first item (weight: 1, value: 2), second item (weight: 3, value: 4)
 ./build/knapsack 4 1 2 3 4
 ```
